@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* VERSÃO MOBILE FIRST*/
+/* VERSÃO MOBILE FIRST (GERAL/CELULAR*/
 
 /*
 Paleta de cores:
@@ -49,7 +49,7 @@ section#login {
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
-    background-position: left bottom;
+    background-position: center;
     background-size: cover;
     height: 200px;
 }
@@ -58,4 +58,12 @@ section#login > div#formulario {
     display: block;
     padding: 0px;
 
+}
+div#formulario > h1 {
+text-align: center;
+margin-bottom: 10px;
+
+}
+div#formulario > p {
+    font-size: 0.8em;
 }
